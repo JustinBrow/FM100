@@ -65,6 +65,6 @@ function clearResults() {
    var rowList = ["row1", "row2", "row3", "row4"];
    for (var rowId of rowList) {
       document.getElementById(base.concat(rowId)).value = "";
-      $("#" + base.concat(rowId)).attr('size', 160)
+      $("#" + base.concat(rowId)).prop('size', 20)
    }
 }
