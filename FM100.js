@@ -51,7 +51,7 @@ function getFM100Order() {
       i++
 
       document.getElementById(base.concat(rowId)).value = colourBlockOrder;
-      //$('#name').attr('size', $('#name').val().length)
+      $("#" + base.concat(rowId)).attr('size', $("#" + base.concat(rowId)).val().length)
       var colourBlockOrder = [];
    }
 }
