@@ -2,6 +2,10 @@ button, input, label {
    font-family: 'Roboto', sans-serif;
 }
 
+.center {
+   text-align: center;
+}
+
 .ghostbox {
    visibility: hidden;
    cursor: none;
