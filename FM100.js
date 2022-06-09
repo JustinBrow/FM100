@@ -55,3 +55,12 @@ function getFM100Order() {
       var colourBlockOrder = [];
    }
 }
+
+function clearResults() {
+   var base = "fm100results";
+   var rowList = ["row1", "row2", "row3", "row4"];
+   for (var rowId of rowList) {
+      document.getElementById(base.concat(rowId)).value = "";
+      $("#" + base.concat(rowId)).attr('size', 160)
+   }
+}
