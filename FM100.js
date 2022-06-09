@@ -51,5 +51,6 @@ function getFM100Order() {
       i++
 
       document.getElementById(base.concat(rowId)).value = colourBlockOrder;
+      var colourBlockOrder = [];
    }
 }
