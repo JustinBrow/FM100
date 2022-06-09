@@ -52,12 +52,3 @@ function getFM100Order() {
 
    return colourBlockOrder;
 }
-
-//get current order on click
-$("#submitButton").click(function () {
-   fm100Order = getFM100Order();
-
-   console.log(fm100Order)
-   document.getElementById("fm100results").value = fm100Order
-   console.log("")
-});
