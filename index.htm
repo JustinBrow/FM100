@@ -15,6 +15,13 @@
          createSortable();
          shuffle();
       });
+      $("#submitButton").click(function() {
+         fm100Order = getFM100Order();
+
+         console.log(fm100Order)
+         document.getElementById("fm100results").value = fm100Order
+         console.log("")
+      });
    </script>
 </head>
 <body>
@@ -131,5 +138,5 @@
    <hr>
 
    <button type="submit" form-action="submit" id=submitButton>Submit</button>
-   <input name="fm100resuls" id="fm100results" style="visibility: hidden;">
+   <input name="fm100resuls" id="fm100results">
 </body>
