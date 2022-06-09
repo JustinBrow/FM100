@@ -14,13 +14,10 @@
       $(document).ready(function() {
          createSortable();
          shuffle();
-      });
-   </script>
-   <script>
-      $("#submitButton").click(function() {
-         fm100Order = getFM100Order();
-         console.log(fm100Order)
-         document.getElementById("fm100results").value = fm100Order
+         $("#submitButton").click(function() {
+            fm100Order = getFM100Order();
+            document.getElementById("fm100results").value = fm100Order
+         });
       });
    </script>
 </head>
