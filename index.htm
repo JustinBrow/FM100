@@ -12,8 +12,23 @@
    <script src="./main.js"></script>
    <script>
       $(document).ready(function() {
-         createSortable();
-         shuffle();
+         Sortable.create(row1, {
+            animation: 150,
+            ghostClass: 'ghostbox',
+         });
+         Sortable.create(row2, {
+            animation: 150,
+            ghostClass: 'ghostbox',
+         });
+         Sortable.create(row3, {
+            animation: 150,
+            ghostClass: 'ghostbox',
+         });
+         Sortable.create(row4, {
+            animation: 150,
+            ghostClass: 'ghostbox',
+         });
+         <!--shuffle();-->
       });
    </script>
 </head>
