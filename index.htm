@@ -9,26 +9,11 @@
    <link rel="stylesheet" type="text/css" href="./style.css">
    <script src="./Sortable.js"></script>
    <script src="./jquery.min.js"></script>
-   <script src="./main.js"></script>
+   <script src="./FM100.js"></script>
    <script>
       $(document).ready(function() {
-         Sortable.create(row1, {
-            animation: 150,
-            ghostClass: 'ghostbox',
-         });
-         Sortable.create(row2, {
-            animation: 150,
-            ghostClass: 'ghostbox',
-         });
-         Sortable.create(row3, {
-            animation: 150,
-            ghostClass: 'ghostbox',
-         });
-         Sortable.create(row4, {
-            animation: 150,
-            ghostClass: 'ghostbox',
-         });
-         <!--shuffle();-->
+         createSortable();
+         shuffle();
       });
    </script>
 </head>
