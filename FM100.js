@@ -2,21 +2,25 @@ function createSortable() {
    Sortable.create(row1, {
       animation: 150,
       ghostClass: 'ghostbox',
+      onSort: clearResults
    });
 
    Sortable.create(row2, {
       animation: 150,
       ghostClass: 'ghostbox',
+      onSort: clearResults
    });
 
    Sortable.create(row3, {
       animation: 150,
       ghostClass: 'ghostbox',
+      onSort: clearResults
    });
 
    Sortable.create(row4, {
       animation: 150,
       ghostClass: 'ghostbox',
+      onSort: clearResults
    });
 }
 
