@@ -1,3 +1,7 @@
+button, label {
+   font-family: 'Roboto', sans-serif;
+}
+
 .ghostbox {
    visibility: hidden;
    cursor: none;
