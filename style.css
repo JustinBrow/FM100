@@ -1,4 +1,7 @@
-button, input, label {
+button, label {
+   font-family: 'Roboto', sans-serif;
+}
+input {
    font-family: 'Roboto Mono', sans-serif;
 }
 
