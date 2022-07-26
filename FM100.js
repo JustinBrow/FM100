@@ -40,7 +40,7 @@ function shuffle() {
 function getFM100Order() {
    var base = "fm100results";
    var rowList = ["row1", "row2", "row3", "row4"];
-   var boundaries = ["1", "22", "43", "64", "85"];
+   var boundaries = ["01", "22", "43", "64", "85"];
    var colourBlockOrder = [];
 
    colourBlockOrder.push(boundaries[0]);
