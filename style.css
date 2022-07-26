@@ -34,7 +34,8 @@ input {
    /* background-color: #eaeaea; */
    padding: 10px 10px;
    max-width: 1000px;
-   margin: 5px auto
+   margin: 5px auto;
+   white-space: nowrap
 }
 
 .hue-box {
