@@ -43,11 +43,11 @@ function getFM100Order() {
    var boundaries = ["01", "22", "43", "64", "85"];
    var colourBlockOrder = [];
 
-   colourBlockOrder.push(boundaries[0]);
    i = 0;
    for (var rowId of rowList) {
       var parent = $("#" + rowId);
       var divs = parent.children();
+      colourBlockOrder.push(boundaries[0]);
       for (var divChild of divs) {
         colourBlockOrder.push($(divChild).attr("data-position"))
       }
