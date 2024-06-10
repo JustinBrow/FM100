@@ -21,6 +21,14 @@
          });
       });
    </script>
+   <script>
+      function toggleDarkMode() {
+         var body = document.body;
+         body.classList.toggle("dark-mode");
+         var label = document.label;
+         label.classList.toggle("dark-mode");
+      }
+   </script>
 </head>
 <body>
    <hr>
@@ -140,4 +148,5 @@
    <div class="center"><label>Row 2 Result: <input name="fm100results" id="fm100resultsrow2"></label></div>
    <div class="center"><label>Row 3 Result: <input name="fm100results" id="fm100resultsrow3"></label></div>
    <div class="center"><label>Row 4 Result: <input name="fm100results" id="fm100resultsrow4"></label></div>
+   <div class="center"><button onclick="toggleDarkMode()">Toggle dark mode</button></div>
 </body>
